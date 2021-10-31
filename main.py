@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
+from os import environ
 from smtplib import SMTP
 import requests
-from os import environ
 
 sender_email = environ.get('SENDER_EMAIL')
 sender_password = environ.get('SENDER_PASSWORD')
